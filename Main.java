@@ -18,7 +18,9 @@ public class Main {
 			num = sc.nextInt();
 			arr[i] = num;
 		}
+		
 		sc.close();
+		
 		//Â¦¼ö
 		for(int i = 1; i < arr.length; i += 2) {
 			sum += arr[i];
